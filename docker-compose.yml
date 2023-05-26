@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  marmmot-www2:
+    build:
+#      context: .
+      dockerfile: Dockerfile
+#    volumes:
+#      - ./src:/www/src
+#      - ./docs:/app/docs
+#      - ./public:/app/public
+#      - ./src:/app/src
+    ports:
+      - "3000:80"
